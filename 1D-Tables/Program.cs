@@ -7,9 +7,10 @@ namespace _1D_Tables
         {
             int[] a;
             int[] b;
-           // int counter = 0;
-            a = new int[] { 0, 1, 1, 2, 3, 3, 3 };
-            b = new int[] { 0, 2, 2, 3, 4 };
+            // int counter = 0;
+            a = new int[] { -2, -1, 0, 1, 4 };
+            b = new int[] { -3, -2, -1, 1, 2, 3 };
+
             //int[] distinctArr = a;
 
             var test = false;
@@ -23,7 +24,7 @@ namespace _1D_Tables
            foreach (int i in a)
             {
 
-                if (Array.IndexOf(b, i) < 0)
+                if (Array.IndexOf(b, i) >= 0)
                 {
                     Console.Write($"{i} ");
                     test = true;
