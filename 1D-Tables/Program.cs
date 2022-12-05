@@ -28,7 +28,7 @@ namespace _1D_Tables
                     }
                 }
             }
-        var distincta = a.AsSpan().Slice(0,size);
+            var distincta = a.AsSpan().Slice(0, size);
 
             var test = false;
            foreach (int i in distincta)
